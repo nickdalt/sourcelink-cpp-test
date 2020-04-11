@@ -2,5 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/TestLibA/.vs/TestLibA/v16/Preview
 *.user
+/TestLibA/.vs/
+/TestLibA/Debug
+/TestLibA/packages
+/TestExeA/.vs/
+/TestExeA/packages
+/TestExeA/Debug
