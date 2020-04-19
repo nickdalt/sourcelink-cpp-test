@@ -9,3 +9,7 @@
 /TestExeA/.vs/
 /TestExeA/packages
 /TestExeA/Debug
+/TestLibB/Debug
+/TestExeA/msbuild.binlog
+/TestExeA/msbuild.log
+/TestLibA/msbuild.log

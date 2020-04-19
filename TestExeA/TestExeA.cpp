@@ -3,8 +3,16 @@
 
 #include <iostream>
 
+extern "C"
+{
+    void fnTestLibA();
+    void fnTestLibB();
+}
+
 int main()
 {
+    fnTestLibA();
+    fnTestLibB();
     std::cout << "Hello World!\n";
 }
 

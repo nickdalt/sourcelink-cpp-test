@@ -3,8 +3,13 @@
 
 #include "pch.h"
 #include "framework.h"
+#include <stdio.h>
 
 // TODO: This is an example of a library function
-void fnTestLibA()
+extern "C"
 {
+	void fnTestLibA()
+	{
+		printf("TestLibA\n");
+	}
 }
